@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="./global.css">
+        <link rel="stylesheet" href="./advanced.css">
+    </head>
+    <body>
+        <div class="googleadvancedsearch-container">
+            <div class="googleadvancedsearch-header">
+              <div class="logo-container">
+                <a href="./index.html">
+                  <img class="logo" src="./img/googlelogo_color_272x92dp.png" alt="google-logo" />
+                </a>
+              </div>
+              <ul>
+                  <li>
+                      <a href="./index.html">Search</a>
+                  </li>
+                  <li>
+                      <a href="./images.html">Images</a>
+                  </li>
+                  <li>
+                      <a href="./advanced.html">Advanced</a>
+                  </li>
+              </ul>
+            </div>
+            <h2 class="advanced-title section">Advanced Search</h2>
+            <hr />
+            <div class="advanced-form-container section">
+              <form action="https://google.com/search" method="GET" name="f">
+                <input name="hl" value="en" type="hidden">
+                <h4>Find pages with...</h4>
+                <div class="field-container">
+                  <label for="all">all these words:</label>
+                  <input id="all" class="search-input" type="text" name="as_q">
+                </div>
+                <div class="field-container">
+                  <label for="exact">this exact word or phrase:</label>
+                  <input id="exact" class="search-input" type="text" name="as_epq">
+                </div>
+                <div class="field-container">
+                  <label for="any">any of these words:</label>
+                  <input id="any" class="search-input" type="text" name="as_oq">
+                </div>
+                <div class="submit-container">
+                  <input value="Advanced Search" type="submit" />
+                </div>
+              </form>
+            </div>
+        </div>
+    </body>
+</html>
