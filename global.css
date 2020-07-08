@@ -106,9 +106,9 @@ a:hover, a:focus {
 }
 
 .buttons-container input {
-  background-color: #eee;
+  background-color: #f3f3f3;
   border: 1px solid #eee;
-  color: rgba(0,0,0,0.6);
+  color: rgba(0,0,0,0.7);
   padding: 10px 14px;
   font-size: 14px;
   border-radius: 5px;
@@ -117,8 +117,8 @@ a:hover, a:focus {
 
 .buttons-container input:hover,
 .buttons-container input:focus {
-  color: rgba(0,0,0,1);
-  border: 1px solid #bbb;
-  background-color: #f3f3f3;
+  color: rgba(0,0,0,0.9);
+  border: 1px solid #ccc;
+  background-color: #f6f6f6;
   cursor: pointer;
 }
